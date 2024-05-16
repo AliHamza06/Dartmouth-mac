@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap');
+@font-face {
+    font-family: "regular";
+    src: url(/fonts/NeueMachina-Regular.otf);
+}
+body{
+    font-family: "regular";
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-image: url(/img/bg.png);
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: black;
+    background-size: contain;
+}
+#main_content{
+    position: relative;
+    background-image: url(/img/bg.png);
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: black;
+    background-size: contain;
+}
+#main_team_content{
+    position: relative;
+    background-image: url(/img/bg.png);
+    width: 100%;
+    height: auto;
+    min-height: 93vh;
+    background-color: black;
+    background-size: contain;
+}
+a{
+    text-decoration: none;
+}
+.navbar_section{
+    font-family: 'Archivo', sans-serif;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+.navlogo{
+    height: 40px;
+    width: auto;
+}
+.navbar ul li a{
+    letter-spacing: 1px;
+    color: #fff !important;
+    font-size: 20px;
+}
+.navbar-dark .navbar-toggler{
+    border: none;
+    box-shadow: none;
+}
+.home_section_one{
+    padding-top: 120px;
+}
+.home_sec1_main_div{
+    width: 100%;
+    max-width: 1350px;
+    margin: auto;
+}
+.home_sec1_text_div h1{
+    font-family: "regular";
+    color: #fff;
+}
+.home_sec1_text_div h1 span{
+    color: #4EDF9A;
+}
+.home_sec1_text_div p{
+    font-family: 'Archivo', sans-serif;
+    color: #fff;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+.home_sec1_three_card_main{
+    position: absolute;
+    bottom: 0;
+}
+.home_sec1_graph_main_div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    align-items: flex-end;
+}
+.home_sec1_graph1_div{
+    background: linear-gradient(0deg, #082120, #082120),
+    linear-gradient(0deg, #29A69E, #29A69E);
+    border: 2px solid #29A69E;
+    height: 134px;
+    width: 200px;
+    color: #29A69E;
+    text-align: end;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.home_sec1_graph1_div img{
+    height: 20px;
+}
+.home_sec1_graph2_div{
+    background: linear-gradient(0deg, #152B1B, #152B1B),
+    linear-gradient(0deg, #67D887, #67D887);    
+    border: 2px solid #67D887;
+    height: 234px;
+    width: 200px;
+    color: #67D887;
+    text-align: end;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.home_sec1_graph2_div img{
+    height: 20px;
+}
+.home_sec1_graph3_div{
+    background: linear-gradient(0deg, #102D1F, #102D1F),
+    linear-gradient(0deg, #4EDF9A, #4EDF9A);
+    border: 1px solid #4EDF9A;
+    height: 324px;
+    width: 200px;
+    color: #4EDF9A;
+    text-align: end;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.home_sec1_graph3_div img{
+    height: 20px;
+}
+#detail_main{
+    width: 100%;
+    max-width: 1350px;
+    margin: auto;
+}
+/* Reaserch */
+.research_top_bar_div{
+    position: relative;
+    background: linear-gradient(0deg, #082120, #082120),
+    linear-gradient(0deg, #29A69E, #29A69E);
+    border: 2px solid #29A69E;
+    height: 150px;
+    width: 160px;
+    z-index: 3;
+    border-radius: 0px 0px 10px 10px;
+}
+.research_top_inner_div{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+    padding: 10px;
+}
+.research_top_inner_div img{
+    height: 15px;
+}
+.research_text_main_div{
+    font-family: "regular";
+    margin-top: 50px;
+}
+.research_text_div{
+    padding-top: 30px;
+    color: #fff;
+    line-height: 200%;
+    font-size: 21px;
+}
+.research_right_cards_main_div{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    height: auto;
+    min-height: 400px;
+}
+.research_right_card1_div{
+    position: absolute;
+    top: 0;
+    z-index: 4;
+    background: linear-gradient(0deg, #102D1F, #102D1F),
+    linear-gradient(0deg, #4EDF9A, #4EDF9A);
+    border: 1px solid #4EDF9A;
+    width: 100px;
+    height: 260px;
+    border-radius: 10px;
+}
+.research_right_card2_div{
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    z-index: 3;
+    background: linear-gradient(0deg, #152B1B, #152B1B),
+    linear-gradient(0deg, #67D887, #67D887);
+    border: 2px solid #67D887;
+    width: 100px;
+    height: 260px;
+    border-radius: 10px;
+}
+.research_right_card3_div{
+    position: absolute;
+    top: 80px;
+    left: 160px;
+    background: linear-gradient(0deg, #082120, #082120),
+    linear-gradient(0deg, #29A69E, #29A69E);
+    border: 2px solid #29A69E;
+    border: 1px solid #4EDF9A;
+    width: 100px;
+    height: 260px;
+    border-radius: 10px;
+}
+/* Build */
+.build_top_bar_div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: linear-gradient(0deg, #152B1B, #152B1B),
+    linear-gradient(0deg, #67D887, #67D887);
+    border: 2px solid #67D887;
+    height: 170px;
+    width: 160px;
+    margin: auto;
+    z-index: 3;
+    border-radius: 0px 0px 10px 10px;
+}
+.build_top_inner_div{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+    padding: 10px;
+}
+.build_top_inner_div img{
+    height: 15px;
+}
+.build_text_main_div{
+    font-family: "regular";
+    margin-top: 50px;
+}
+.build_text_div{
+    padding-top: 30px;
+    color: #fff;
+    line-height: 200%;
+    font-size: 21px;
+}
+.build_right_cards_main_div{
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.build_right_card1_div{
+    margin-top: 20px !important;
+    background: linear-gradient(0deg, #102D1F, #102D1F),
+    linear-gradient(0deg, #4EDF9A, #4EDF9A);
+    border: 1px solid #4EDF9A;
+    height: 70px;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+.build_right_card2_div{
+    margin-top: 20px !important;
+    background: linear-gradient(0deg, #152B1B, #152B1B),
+    linear-gradient(0deg, #67D887, #67D887);
+    border: 2px solid #67D887;
+    height: 70px;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+.build_right_card3_div{
+    margin-top: 20px !important;
+    background: linear-gradient(0deg, #082120, #082120),
+    linear-gradient(0deg, #29A69E, #29A69E);
+    border: 2px solid #29A69E;
+    border: 1px solid #4EDF9A;
+    height: 70px;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+/* Invest */
+.invest_top_bar_div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: linear-gradient(0deg, #102D1F, #102D1F),
+    linear-gradient(0deg, #4EDF9A, #4EDF9A);
+    border: 1px solid #4EDF9A;
+    height: 190px;
+    width: 160px;
+    margin-left: auto;
+    z-index: 3;
+    border-radius: 0px 0px 10px 10px;
+}
+.invest_top_inner_div{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+    padding: 10px;
+}
+.invest_top_inner_div img{
+    height: 15px;
+}
+.invest_text_main_div{
+    font-family: "regular";
+    margin-top: 50px;
+}
+.invest_text_div{
+    padding-top: 30px;
+    color: #fff;
+    line-height: 200%;
+    font-size: 21px;
+}
+.invest_right_cards_main_div{
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+    justify-content: center;
+}
+.invest_right_card1_div{
+    margin-top: 20px !important;
+    background: linear-gradient(0deg, #102D1F, #102D1F),
+    linear-gradient(0deg, #4EDF9A, #4EDF9A);
+    border: 1px solid #4EDF9A;
+    height: 150px;
+    width: 60px;
+    margin-left: auto;
+    border-radius: 10px;
+}
+.invest_right_card2_div{
+    margin-top: 20px !important;
+    background: linear-gradient(0deg, #152B1B, #152B1B),
+    linear-gradient(0deg, #67D887, #67D887);
+    border: 2px solid #67D887;
+    height: 200px;
+    width: 60px;
+    border-radius: 10px;
+}
+.invest_right_card3_div{
+    margin-top: 20px !important;
+    background: linear-gradient(0deg, #082120, #082120),
+    linear-gradient(0deg, #29A69E, #29A69E);
+    border: 2px solid #29A69E;
+    border: 1px solid #4EDF9A;
+    height: 250px;
+    width: 60px;
+    border-radius: 10px;
+}
+/* Team */
+.team_sectin_one{
+    padding-top: 50px;
+}
+.team_title_div h1{
+    color: #4EDF9A;
+    text-align: center;
+}
+.team_card_body_div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 40px;
+}
+.team_card_img_div{
+    background: linear-gradient(0deg, #102D1F, #102D1F),
+    linear-gradient(0deg, #4EDF9A, #4EDF9A);
+    border: 0.79px solid #4EDF9A;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3.96996px;
+}
+.team_card_img_div img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.team_card_text_div {
+    color: #fff;
+}
+.team_navbar_section{
+    background-color: #000;
+    width: 100%;
+    z-index: 6;
+}
+@media(max-width:1366px){
+    #detail_main{
+        width: 100%;
+        max-width: 850px;
+        margin: auto;
+    }
+    .home_sec1_main_div{
+        width: 100%;
+        max-width: 850px;
+        margin: auto;
+    }
+}
+@media(max-width:992px){
+    .navbar-collapse{
+        background-color: #000;
+        padding: 10px 20px;
+    }
+    .team_navbar_section{
+        position: fixed;
+        bottom: 0;
+        background-color: #000;
+        width: 100%;
+        z-index: 6;
+    }
+    #main_team_content{
+        padding-bottom: 70px;
+    }
+}
+@media(max-width:768px){
+    .home_sec1_graph3_div {
+        height: 270px;
+        width: 150px;
+    }
+    .home_sec1_graph2_div {
+        height: 190px;
+        width: 150px;
+    }
+    .home_sec1_graph1_div{
+        height: 100px;
+        width: 150px;
+    }
+    .home_sec1_graph_main_div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: flex-end;
+    }
+}
+@media(max-width:505px){
+
+    .home_sec1_graph1_div{
+        height: 100px;
+        width: 100px;
+    }
+    .home_sec1_graph2_div {
+        height: 190px;
+        width: 110px;
+    }
+    .home_sec1_graph3_div {
+        height: 270px;
+        width: 120px;
+    }
+    .home_sec1_graph1_div{
+        font-size: 12px;
+    }
+    .home_sec1_graph1_div img{
+       height: 12px;
+    }
+    .home_sec1_graph2_div{
+        font-size: 12px;
+    }
+    .home_sec1_graph2_div img{
+       height: 12px;
+    }
+    .home_sec1_graph3_div{
+        font-size: 12px;
+    }
+    .home_sec1_graph3_div img{
+       height: 12px;
+    }
+}
+@media(max-width:390px){
+    .home_sec1_graph1_div{
+        height: 80px;
+        width: 90px;
+    }
+    .home_sec1_graph2_div {
+        height: 150px;
+        width: 100px;
+    }
+    .home_sec1_graph3_div {
+        height: 200px;
+        width: 110px;
+    }
+}
+@media(max-width:355px){
+    .home_sec1_graph1_div{
+        height: 80px;
+        width: 70px;
+    }
+    .home_sec1_graph2_div {
+        height: 130px;
+        width: 70px;
+    }
+    .home_sec1_graph3_div {
+        height: 170px;
+        width: 70px;
+    }
+    .home_sec1_graph1_div {
+        font-size: 10px;
+    }
+    .home_sec1_graph1_div img {
+        height: 10px;
+    }
+}

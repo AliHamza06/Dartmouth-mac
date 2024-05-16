@@ -1,0 +1,734 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap');
+@import url('https://db.onlinewebfonts.com/c/eb270b13b84d5a43462737e3fb0a268d?family=Suisse+Intl');
+@font-face {
+    font-family: "regular";
+    src: url(/fonts/NeueMachina-Regular.otf);
+}
+body{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-image: url(/img/bg.png);
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: black;
+    background-size: contain;
+}
+.navbar_section{
+    font-family: 'Archivo', sans-serif;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+}
+.home_section_one{
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    max-width: 850px;
+    margin: auto;
+    padding-top: 100px;
+}
+.navlogo{
+    height: 40px;
+    width: auto;
+}
+.navbar ul li a{
+    letter-spacing: 2px;
+    color: #fff !important;
+    font-size: 17px;
+}
+.navbar-dark .navbar-toggler{
+    border: none;
+    box-shadow: none;
+}
+a{
+    text-decoration: none;
+}
+.home_sec1_text_div h1{
+    font-family: "regular";
+    color: #fff;
+    font-size: 41px;
+}
+.home_sec1_text_div h1 span{
+    color: #4EDF9A;
+}
+.home_sec1_text_div p{
+    font-family: 'Archivo', sans-serif;
+    color: #fff;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+.home_sec1_three_card_main{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.home_sec1_graph_main_div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 10px;
+}
+.home_sec1_graph1_div{
+    background: linear-gradient(0deg, #082120, #082120),
+    linear-gradient(0deg, #29A69E, #29A69E);
+    border: 2px solid #29A69E;
+    height: 134px;
+    width: 200px;
+    color: #29A69E;
+    text-align: end;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.home_sec1_graph1_div img{
+    height: 20px;
+}
+.home_sec1_graph2_div{
+    background: linear-gradient(0deg, #152B1B, #152B1B),
+    linear-gradient(0deg, #67D887, #67D887);    
+    border: 2px solid #67D887;
+    height: 234px;
+    width: 200px;
+    color: #67D887;
+    text-align: end;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.home_sec1_graph2_div img{
+    height: 20px;
+}
+.home_sec1_graph3_div{
+    background: linear-gradient(0deg, #102D1F, #102D1F),
+    linear-gradient(0deg, #4EDF9A, #4EDF9A);
+    border: 2px solid #4EDF9A;
+    height: 324px;
+    width: 200px;
+    color: #4EDF9A;
+    text-align: end;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.home_sec1_graph3_div img{
+    height: 20px;
+}
+/* Reaserch */
+.research_top_bar_div{
+    position: relative;
+    background: linear-gradient(0deg, #082120, #082120),
+    linear-gradient(0deg, #29A69E, #29A69E);
+    border: 2px solid #29A69E;
+    height: 200px;
+    width: 200px;
+    z-index: 3;
+    border-radius: 0px 0px 10px 10px;
+}
+.research_top_inner_div{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+    padding: 10px;
+}
+.research_top_inner_div img{
+    height: 15px;
+}
+.research_text_main_div{
+    font-family: "regular";
+    margin-top: 50px;
+}
+.research_text_div{
+    padding-top: 30px;
+    color: #fff;
+    line-height: 200%;
+    font-size: 21px;
+}
+.research_right_cards_main_div{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    height: auto;
+    min-height: 400px;
+}
+.research_right_card1_div{
+    position: absolute;
+    top: 0;
+    z-index: 4;
+    background: linear-gradient(0deg, #102D1F, #102D1F),
+    linear-gradient(0deg, #4EDF9A, #4EDF9A);
+    border: 2px solid #4EDF9A;
+    width: 100px;
+    height: 260px;
+    border-radius: 10px;
+}
+.research_right_card2_div{
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    z-index: 3;
+    background: linear-gradient(0deg, #152B1B, #152B1B),
+    linear-gradient(0deg, #67D887, #67D887);
+    border: 2px solid #67D887;
+    width: 100px;
+    height: 260px;
+    border-radius: 10px;
+}
+.research_right_card3_div{
+    position: absolute;
+    top: 80px;
+    left: 160px;
+    background: linear-gradient(0deg, #082120, #082120),
+    linear-gradient(0deg, #29A69E, #29A69E);
+    border: 2px solid #29A69E;
+    border: 2px solid #4EDF9A;
+    width: 100px;
+    height: 260px;
+    border-radius: 10px;
+}
+/* Build */
+.build_top_bar_div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: linear-gradient(0deg, #152B1B, #152B1B),
+    linear-gradient(0deg, #67D887, #67D887);
+    border: 2px solid #67D887;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    z-index: 3;
+    border-radius: 0px 0px 10px 10px;
+}
+.build_top_inner_div{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+    padding: 10px;
+}
+.build_top_inner_div img{
+    height: 15px;
+}
+.build_text_main_div{
+    font-family: "regular";
+    margin-top: 50px;
+}
+.build_text_div{
+    padding-top: 30px;
+    color: #fff;
+    line-height: 200%;
+    font-size: 21px;
+}
+.build_right_cards_main_div{
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.build_right_card1_div{
+    margin-top: 20px !important;
+    background: linear-gradient(0deg, #102D1F, #102D1F),
+    linear-gradient(0deg, #4EDF9A, #4EDF9A);
+    border: 2px solid #4EDF9A;
+    height: 70px;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+.build_right_card2_div{
+    margin-top: 20px !important;
+    background: linear-gradient(0deg, #152B1B, #152B1B),
+    linear-gradient(0deg, #67D887, #67D887);
+    border: 2px solid #67D887;
+    height: 70px;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+.build_right_card3_div{
+    margin-top: 20px !important;
+    background: linear-gradient(0deg, #082120, #082120),
+    linear-gradient(0deg, #29A69E, #29A69E);
+    border: 2px solid #29A69E;
+    border: 2px solid #4EDF9A;
+    height: 70px;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+/* Invest */
+.invest_top_bar_div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: linear-gradient(0deg, #102D1F, #102D1F),
+    linear-gradient(0deg, #4EDF9A, #4EDF9A);
+    border: 2px solid #4EDF9A;
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    z-index: 3;
+    border-radius: 0px 0px 10px 10px;
+}
+.invest_top_inner_div{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+    padding: 10px;
+}
+.invest_top_inner_div img{
+    height: 15px;
+}
+.invest_text_main_div{
+    font-family: "regular";
+    margin-top: 50px;
+}
+.invest_text_div{
+    padding-top: 30px;
+    color: #fff;
+    line-height: 200%;
+    font-size: 21px;
+}
+.invest_right_cards_main_div{
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+    justify-content: center;
+}
+.invest_right_card1_div{
+    margin-top: 20px !important;
+    background: linear-gradient(0deg, #102D1F, #102D1F),
+    linear-gradient(0deg, #4EDF9A, #4EDF9A);
+    border: 2px solid #4EDF9A;
+    height: 150px;
+    width: 60px;
+    margin-left: auto;
+    border-radius: 10px;
+}
+.invest_right_card2_div{
+    margin-top: 20px !important;
+    background: linear-gradient(0deg, #152B1B, #152B1B),
+    linear-gradient(0deg, #67D887, #67D887);
+    border: 2px solid #67D887;
+    height: 200px;
+    width: 60px;
+    border-radius: 10px;
+}
+.invest_right_card3_div{
+    margin-top: 20px !important;
+    background: linear-gradient(0deg, #082120, #082120),
+    linear-gradient(0deg, #29A69E, #29A69E);
+    border: 2px solid #29A69E;
+    border: 2px solid #4EDF9A;
+    height: 250px;
+    width: 60px;
+    border-radius: 10px;
+}
+/* Team */
+.team_sectin_one{
+    padding-top: 50px;
+}
+.team_title_div h1{
+    color: #4EDF9A;
+    text-align: center;
+}
+.team_card_body_div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 40px;
+}
+.team_card_img_div{
+    background: linear-gradient(0deg, #102D1F, #102D1F),
+    linear-gradient(0deg, #4EDF9A, #4EDF9A);
+    border: 0.79px solid #4EDF9A;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3.96996px;
+}
+.team_card_img_div img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.team_card_text_div {
+    color: #fff;
+}
+.team_navbar_section{
+    position: fixed;
+    bottom: 0;
+    background-color: #000;
+    width: 100%;
+    z-index: 6;
+}
+.team_scroll_div{
+    height: 78vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.team_scroll_div::-webkit-scrollbar{
+    width: 10px;
+}
+.team_scroll_div::-webkit-scrollbar-thumb{
+   background-color: #000;
+   border: 2px solid lightblue;
+}
+.team_scroll_div::-webkit-scrollbar-track{
+    background-color: lightgray;
+}
+#detail_main{
+    width: 100%;
+    max-width: 850px;
+    margin: auto;
+}
+@media(min-width:1370px){
+    .home_section_one{
+        padding-top: 150px;
+    }
+    .home_sec1_text_div p{
+        font-size: 22px;
+    }
+    .research_text_div {
+        padding-top: 30px;
+        color: #fff;
+        line-height: 200%;
+        font-size: 24px;
+    }
+    .build_text_div{
+        padding-top: 30px;
+        color: #fff;
+        line-height: 200%;
+        font-size: 21px;
+    }
+    .invest_text_div{
+        padding-top: 30px;
+        color: #fff;
+        line-height: 200%;
+        font-size: 25px;
+    }
+    #detail_main {
+        width: 100%;
+        max-width: 850px;
+        margin: auto;
+    }
+    .research_text_main_div{
+        margin-top: 100px;
+        padding-top: 100px;
+    }
+    .build_text_main_div{
+        padding-top: 100px;
+    }
+    .invest_text_main_div{
+        padding-top: 100px;
+    }
+}
+@media(max-width:1266px){
+    .home_sec1_graph3_div {
+        height: 275px;
+        width: 190px;
+    }
+    .home_sec1_graph2_div { 
+        height: 220px;
+        width: 190px;
+    }
+    .home_sec1_graph1_div {
+        height: 145px;
+        width: 200px;
+    }
+}
+@media(max-width:992px){
+    .navbar-collapse{
+        background-color: #000;
+        padding: 10px 20px;
+    }
+    .team_navbar_section{
+        position: fixed;
+        bottom: 0;
+        background-color: #000;
+        width: 100%;
+        z-index: 6;
+    }
+    .home_sec1_graph_main_div{
+        gap: 20px;
+    }
+    .home_sec1_graph_main_div{
+        justify-content: inherit;
+    }
+}
+@media(max-width:768px){
+    .home_sec1_graph3_div {
+        height: 270px;
+        width: 150px;
+    }
+    .home_sec1_graph2_div {
+        height: 190px;
+        width: 150px;
+    }
+    .home_sec1_graph1_div{
+        height: 100px;
+        width: 150px;
+    }
+    .home_sec1_graph_main_div {
+        width: 100%;
+        display: flex;
+        justify-content: inherit;
+        align-items: flex-end;
+        margin-left: 0;
+    }
+    .research_text_div {
+        padding-top: 0px;
+        color: #fff;
+        line-height: 200%;
+        font-size: 18px;
+    }
+    .build_text_div {
+        padding-top: 0px;
+        color: #fff;
+        line-height: 200%;
+        font-size: 18px;
+    }
+    .invest_text_div {
+        padding-top: 10px;
+        color: #fff;
+        line-height: 200%;
+        font-size: 20px;
+    }
+}
+@media(max-width:550px){
+    .home_sec1_three_card_main {
+        position: absolute;
+        bottom: 80px;
+    }
+    .research_top_bar_div{
+        height: 170px;
+        width: 170px;
+    }
+    .research_right_card1_div{
+        height: 230px;
+    }
+    .research_right_card2_div{
+        height: 230px;
+    }
+    .research_right_card3_div{
+        height: 230px;
+    }
+    .home_sec1_text_div h1 {
+        font-family: "regular";
+        color: #fff;
+        font-size: 25px;
+    }
+    .home_sec1_graph1_div{
+        height: 100px;
+        width: 140px;
+    }
+    .home_sec1_graph2_div {
+        height: 190px;
+        width: 140px;
+    }
+    .home_sec1_graph3_div {
+        height: 250px;
+        width: 140px;
+    }
+}
+@media(max-width:505px){
+    .home_sec1_graph1_div{
+        height: 100px;
+        width: 100px;
+    }
+    .home_sec1_graph2_div {
+        height: 190px;
+        width: 110px;
+    }
+    .home_sec1_graph3_div {
+        height: 270px;
+        width: 120px;
+    }
+    .home_sec1_graph1_div{
+        font-size: 12px;
+    }
+    .home_sec1_graph1_div img{
+       height: 12px;
+    }
+    .home_sec1_graph2_div{
+        font-size: 12px;
+    }
+    .home_sec1_graph2_div img{
+       height: 12px;
+    }
+    .home_sec1_graph3_div{
+        font-size: 12px;
+    }
+    .home_sec1_graph3_div img{
+       height: 12px;
+    }
+    .research_top_bar_div {
+        height: 130px;
+        width: 130px;
+    }
+    .build_top_bar_div {
+        height: 130px;
+        width: 130px;
+    }
+    .invest_top_bar_div {
+        height: 130px;
+        width: 130px;
+    }
+    .home_sec1_graph_main_div{
+        margin-left: 0;
+    }
+
+}
+@media(max-width:450px){
+    .home_sec1_three_card_main {
+        position: absolute;
+        bottom: 170px;
+    }
+    .home_sec1_text_div h1 {
+        font-family: "regular";
+        color: #fff;
+        font-size: 27px;
+    }
+    .home_sec1_graph3_div {
+        height: 180px;
+        width: 110px;
+        border-radius: 1.49746px;
+    }
+    .home_sec1_graph2_div {
+        height: 180px;
+        width: 110px;
+        border-radius: 1.49746px;
+        position: relative;
+        top: 40px;
+    }
+    .home_sec1_graph1_div {
+        position: relative;
+        top: 80px;
+        height: 180px;
+        width: 110px;
+        border-radius: 1.49746px;
+    }
+}
+@media(max-width:390px){
+    .home_sec1_graph3_div {
+        height: 140px;
+        width: 100px;
+        border-radius: 1.49746px;
+    }
+    .home_sec1_graph2_div {
+        height: 140px;
+        width: 100px;
+        border-radius: 1.49746px;
+        position: relative;
+        top: 40px;
+    }
+    .home_sec1_graph1_div {
+        position: relative;
+        top: 80px;
+        height: 140px;
+        width: 100px;
+        border-radius: 1.49746px;
+    }
+    .home_sec1_text_div h1{
+        font-size: 20px;
+    }
+    .home_sec1_text_div p{
+        font-size: 12px;
+    }
+}
+@media(max-width:355px){
+    .home_sec1_graph3_div {
+        height: 120px;
+        width: 74px;
+        border-radius: 1.49746px;
+    }
+    .home_sec1_graph2_div {
+        height: 120px;
+        width: 74px;
+        border-radius: 1.49746px;
+        position: relative;
+        top: 40px;
+    }
+    .home_sec1_graph1_div {
+        position: relative;
+        top: 80px;
+        height: 120px;
+        width: 74px;
+        border-radius: 1.49746px;
+    }
+    .home_sec1_graph1_div {
+        font-size: 10px;
+    }
+    .home_sec1_graph1_div img {
+        height: 10px;
+    }
+    .home_sec1_text_div h1{
+        font-size: 20px;
+    }
+    .home_sec1_text_div p {
+        font-size: 10px;
+        line-height: 22px;
+    }
+    .research_top_bar_div {
+        height: 110px;
+        width: 110px;
+    }
+    .build_top_bar_div {
+        height: 110px;
+        width: 120px;
+    }
+    .invest_top_bar_div {
+        height: 110px;
+        width: 110px;
+    }
+    .research_text_div{
+        font-size: 13px;
+    }
+    .research_right_card1_div{
+        height: 200px;
+    }
+    .research_right_card2_div{
+        height: 200px;
+    }
+    .research_right_card3_div{
+        height: 200px;
+    }
+    
+    .build_text_div {
+        padding-top: 0px;
+        color: #fff;
+        line-height: 200%;
+        font-size: 13px;
+    }
+    
+    .invest_text_div {
+        padding-top: 10px;
+        color: #fff;
+        line-height: 200%;
+        font-size: 13px;
+    }
+}
